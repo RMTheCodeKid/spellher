@@ -28,6 +28,7 @@ PLATFORMS
 
 DEPENDENCIES
   compass
+  ffi
   ffi-aspell
   haml
   json
