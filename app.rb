@@ -30,12 +30,16 @@ get '/' do
   haml :index
 end
 
-get '/spell/:word/correctly' do
+get '/spelt/:word/correctly' do
   word = params[:word]
   return status 404 unless word
 
+  success = true
+
+
+
   if speller.correct?(word)
-    return status 200
+    return success.to_json
   end
 
   suggestions = speller.suggestions(word)
