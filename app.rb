@@ -2,6 +2,7 @@ require 'rubygems'
 require 'compass' #must be loaded before sinatra
 require 'sass'
 require 'sinatra'
+require 'ffi'
 require 'ffi/aspell'
 require 'json'
 require 'haml'    #must be loaded after sinatra
