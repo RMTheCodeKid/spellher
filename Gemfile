@@ -5,6 +5,6 @@ gem 'haml'
 gem 'compass'
 gem 'thin'
 gem 'json'
-gem 'ffi/aspell'
+gem 'ffi-aspell'
 
 
